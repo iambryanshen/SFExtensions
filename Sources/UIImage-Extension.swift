@@ -10,6 +10,13 @@ import UIKit
 
 public extension UIImage {
     
+    /// 返回原始图片
+    ///
+    /// - Returns: 原始图片
+    public func originalImage() -> UIImage {
+        return self.withRenderingMode(.alwaysOriginal)
+    }
+    
     /// 根据颜色（RGB值）创建image
     ///
     /// - Parameter color: 所需图片的颜色

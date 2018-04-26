@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D38280E720919AA200BB5DEB /* UIDevice-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38280E620919AA200BB5DEB /* UIDevice-Extension.swift */; };
 		D3D69C522091868200253231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D69C512091868200253231 /* AppDelegate.swift */; };
 		D3D69C542091868200253231 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D69C532091868200253231 /* ViewController.swift */; };
 		D3D69C572091868200253231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D69C552091868200253231 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D38280E620919AA200BB5DEB /* UIDevice-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice-Extension.swift"; sourceTree = "<group>"; };
 		D3D69C4E2091868200253231 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D69C512091868200253231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3D69C532091868200253231 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				D3D69C66209186BC00253231 /* CALayer-Extension.swift */,
 				D3D69C682091874000253231 /* UIColor-Extension.swift */,
 				D3D69C6A209187BF00253231 /* UILabel-Extension.swift */,
+				D38280E620919AA200BB5DEB /* UIDevice-Extension.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				D3D69C6B209187BF00253231 /* UILabel-Extension.swift in Sources */,
 				D3D69C542091868200253231 /* ViewController.swift in Sources */,
 				D3D69C692091874000253231 /* UIColor-Extension.swift in Sources */,
+				D38280E720919AA200BB5DEB /* UIDevice-Extension.swift in Sources */,
 				D3D69C67209186BC00253231 /* CALayer-Extension.swift in Sources */,
 				D3D69C65209186A700253231 /* UIImage-Extension.swift in Sources */,
 				D3D69C522091868200253231 /* AppDelegate.swift in Sources */,
@@ -301,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ZZS76SEL5;
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brian.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -316,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ZZS76SEL5;
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brian.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
